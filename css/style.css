@@ -136,8 +136,9 @@ nav{
 }
 /* MAIN SECTION */
 
-section{
-    padding: 20px;
+.wave img{
+    width: 100%;
+    vertical-align: bottom;
 }
 
 .section-container{
@@ -165,7 +166,6 @@ section{
 
 .background-section{
     background-color: #F6F6F6;
-    padding: 20px;
 }
 
 .download-container{
