@@ -11,6 +11,15 @@ body{
 
 a{
     text-decoration: none;
+    color: white;
+}
+
+p{
+    line-height: 30px;
+}
+
+ul{
+    list-style: none;
 }
 
 .btn-small{
@@ -46,7 +55,6 @@ nav{
 }
 
 .head-ul{
-    list-style: none;
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
@@ -71,11 +79,6 @@ nav{
 
 .button-access .btn-small a{
     color: black;
-}
-
-.ref-container div, .footer-container, .logo-footer, .sing-in{
-    border: 2px dotted black;
-    /* DEBUG */
 }
 
 .background-text-head{
@@ -192,30 +195,47 @@ footer{
 }
 
 .ref-container{
-    height: 400px;/* DEBUG */
-    background-color: #DAA520;/* DEBUG */
     display: flex;
     justify-content: flex-start;
+    padding-top: 20px;
 }
 
 .ref-container div{
-    background-color: #20B2AA;/* DEBUG */
     flex-grow: 1;
 }
 
-#social{
-    background-color: #F08080;/* DEBUG */
+.social{
     flex-grow: 2;
 }
 
+.social h2{
+    color: #7289DA;
+    padding-bottom: 20px;
+}
+
+.social img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.social span{
+    color: white;
+    vertical-align: middle;
+}
+.ref-container li{
+    color: #7289DA;
+    padding-bottom: 20px;
+}
+
 .footer-container{
-    height: 100px;/* DEBUG */
-    background-color: #7FFFD4;/* DEBUG */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid #3C4663;
+    margin-top: 10px;
+    padding: 50px 0 50px 0;
 }
 
-.logo-footer, .sing-in{
-    background-color: #FFB6C1;/* DEBUG */
+.footer-container .btn-small{
+    background-color: #7289DA;
 }
