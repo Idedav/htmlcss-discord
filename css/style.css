@@ -12,6 +12,16 @@ a{
     text-decoration: none;
 }
 
+.btn-small{
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+.btn-big{
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
 .nav-container, .text-head, .section-container, .download-container, .ref-container, .footer-container{
     width: 95%;
     max-width: 1200px;
@@ -54,16 +64,11 @@ nav{
     justify-content: end;
 }
 
-.btn{
-    padding: 10px;
-    border-radius: 50px;
-}
-
-.button-access .small{
+.button-access .btn-small{
     background-color: white;
 }
 
-.button-access .small a{
+.button-access .btn-small a{
     color: black;
 }
 
@@ -99,21 +104,25 @@ nav{
     display: flex;
     justify-content: center;
 }
-.text-head .btn{
-    background-color: white;
-    margin: 20px;
+
+.btn-container .btn-big{
+    margin: 30px 10px;
 }
 
-.text-head .white a{
+.btn-container .white{
+    background-color: white;
+}
+
+.btn-container .white a{
     color: black;
     background-color: white;
 }
 
-.text-head .black{
+.btn-container .black{
     background-color: black;
 }
 
-.text-head .black a{
+.btn-container .black a{
     color: white;
 }
 
