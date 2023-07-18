@@ -6,6 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 a{
@@ -72,7 +73,7 @@ nav{
     color: black;
 }
 
-.section-img, .section-text, .download-container, .ref-container div, .footer-container, .logo-footer, .sing-in{
+.ref-container div, .footer-container, .logo-footer, .sing-in{
     border: 2px dotted black;
     /* DEBUG */
 }
@@ -87,17 +88,18 @@ nav{
 .text-head{
     color: white;
     text-align: center;
-    font-size: 1.2rem;
 }
 
 .text-head h1{
     padding-top: 30px;
     padding-bottom: 20px;
+    font-size: 3rem;
 }
 
 .text-head p{
     width: 60%;
     margin: auto;
+    font-size: 1.2rem;
 }
 
 .btn-container{
@@ -133,31 +135,54 @@ section{
 }
 
 .section-container{
-    height: 300px;/* DEBUG */
     display: flex;
     justify-content: flex-start;
 }
 
 .section-img{
     flex-grow: 2;
-    background-color: #1E90FF;/* DEBUG */
 }
 
 .section-text{
     flex-grow: 1;
-    background-color: #FFC0CB;/* DEBUG */
+    padding: 20px;
+}
+
+.section-text h1{
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.section-text p{
+    font-size: 1.2rem;
 }
 
 .background-section{
-    background-color: lightgray;/* DEBUG */
+    background-color: lightgray;
     padding: 20px;
 }
 
 .download-container{
-    height: 500px;/* DEBUG */
-    background-color: green;/* DEBUG */
+    text-align: center;
 }
 
+.download-container h1{
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.download-container p{
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+}
+
+.download-container .btn-big{
+    background-color: #7289DA;
+}
+
+.download-container .btn-big a{
+    color: white;
+}
 /* FOOTER */
 
 footer{
