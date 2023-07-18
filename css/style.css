@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container, .text-head, .section-container, .download-container, .ref-container, .footer-container{
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* HEADER */
+.background-nav{
+    background-color: #ADD8E6;/* DEBUG */
+    padding: 20px;
+}
+
+.nav-container{
+    background-color: #DAA520;/* DEBUG */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .button-access{
+    flex-grow: 1;
+}
+
+.button-access{
+    text-align: end;
+}
+
+nav{
+    flex-grow: 2;
+    text-align: center;
+}
+
+.logo, nav, .button-access, .text-head, .section-img, .section-text, .download-container, .ref-container div, .footer-container, .logo-footer, .sing-in{
+    border: 2px dotted black;
+    /* DEBUG */
+}
+
+.background-text-head{
+    background-color: #00008B;/* DEBUG */
+    padding: 20px;
+}
+
+.text-head{
+    height: 300px;/* DEBUG */
+    background-color: #EE82EE;/* DEBUG */
+}
+
+/* MAIN SECTION */
+
+section{
+    padding: 20px;
+}
+
+.section-container{
+    height: 300px;/* DEBUG */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-img{
+    flex-grow: 2;
+    background-color: #1E90FF;/* DEBUG */
+}
+
+.section-text{
+    flex-grow: 1;
+    background-color: #FFC0CB;/* DEBUG */
+}
+
+.background-section{
+    background-color: lightgray;/* DEBUG */
+    padding: 20px;
+}
+
+.download-container{
+    height: 500px;/* DEBUG */
+    background-color: green;/* DEBUG */
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #23272A;/* DEBUG */
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.ref-container{
+    height: 400px;/* DEBUG */
+    background-color: #DAA520;/* DEBUG */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ref-container div{
+    background-color: #20B2AA;/* DEBUG */
+    flex-grow: 1;
+}
+
+#social{
+    background-color: #F08080;/* DEBUG */
+    flex-grow: 2;
+}
+
+.footer-container{
+    height: 100px;/* DEBUG */
+    background-color: #7FFFD4;/* DEBUG */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer, .sing-in{
+    background-color: #FFB6C1;/* DEBUG */
+}
