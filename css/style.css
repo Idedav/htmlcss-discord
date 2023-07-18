@@ -164,7 +164,7 @@ section{
 }
 
 .background-section{
-    background-color: lightgray;
+    background-color: #F6F6F6;
     padding: 20px;
 }
 
@@ -231,6 +231,10 @@ footer{
 .social span{
     color: white;
     vertical-align: middle;
+}
+
+.social span .fa-angle-down{
+    font-size: 15px;
 }
 
 .icon{
