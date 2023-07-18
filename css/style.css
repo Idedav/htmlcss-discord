@@ -131,6 +131,9 @@ nav{
     color: white;
 }
 
+.btn-big .fa-arrow-down-long{
+    margin-right: 5px;
+}
 /* MAIN SECTION */
 
 section{
@@ -179,6 +182,13 @@ section{
     padding-bottom: 30px;
 }
 
+.stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: top center;
+    padding: 60px;
+}
+
 .download-container .btn-big{
     background-color: #7289DA;
 }
@@ -222,6 +232,17 @@ footer{
     color: white;
     vertical-align: middle;
 }
+
+.icon{
+    color: white;
+    margin-top: 10px;
+}
+
+.icon .fa-brands{
+    font-size: 20px;
+    padding: 5px;
+}
+
 .ref-container li{
     color: #7289DA;
     padding-bottom: 20px;
