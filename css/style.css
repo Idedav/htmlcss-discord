@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
 .nav-container, .text-head, .section-container, .download-container, .ref-container, .footer-container{
     width: 95%;
     max-width: 1200px;
@@ -12,14 +20,29 @@
 
 /* HEADER */
 .background-nav{
-    background-color: #ADD8E6;/* DEBUG */
+    background-color: #255EE9;
     padding: 20px;
 }
 
 .nav-container{
-    background-color: #DAA520;/* DEBUG */
     display: flex;
     justify-content: space-between;
+}
+
+
+nav{
+    flex-grow: 2;
+}
+
+.head-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.head-ul a{
+    color: white;
 }
 
 .logo, .button-access{
@@ -27,27 +50,71 @@
 }
 
 .button-access{
-    text-align: end;
+    display: flex;
+    justify-content: end;
 }
 
-nav{
-    flex-grow: 2;
-    text-align: center;
+.btn{
+    padding: 10px;
+    border-radius: 50px;
 }
 
-.logo, nav, .button-access, .text-head, .section-img, .section-text, .download-container, .ref-container div, .footer-container, .logo-footer, .sing-in{
+.button-access .small{
+    background-color: white;
+}
+
+.button-access .small a{
+    color: black;
+}
+
+.section-img, .section-text, .download-container, .ref-container div, .footer-container, .logo-footer, .sing-in{
     border: 2px dotted black;
     /* DEBUG */
 }
 
 .background-text-head{
-    background-color: #00008B;/* DEBUG */
-    padding: 20px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
 }
 
 .text-head{
-    height: 300px;/* DEBUG */
-    background-color: #EE82EE;/* DEBUG */
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.text-head h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.text-head p{
+    width: 60%;
+    margin: auto;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.text-head .btn{
+    background-color: white;
+    margin: 20px;
+}
+
+.text-head .white a{
+    color: black;
+    background-color: white;
+}
+
+.text-head .black{
+    background-color: black;
+}
+
+.text-head .black a{
+    color: white;
 }
 
 /* MAIN SECTION */
